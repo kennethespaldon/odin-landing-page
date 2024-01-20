@@ -180,3 +180,13 @@ h2 {
   padding: 6px 32px;
   border: 2px solid #F9FAF8;
 }
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 40px;
+}
