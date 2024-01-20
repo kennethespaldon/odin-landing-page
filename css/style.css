@@ -70,7 +70,9 @@ img {
 }
 
 button {
-    border: none;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .sign-up-button {
@@ -79,9 +81,13 @@ button {
   color: #F9FAF8;
   font-size: 18px;
   font-weight: 700;
-  padding: 8px 36px;
   border-radius: 8px;
 }
+
+.hero-button {
+  padding: 8px 36px;
+}
+
 
 /* INFO */
 .info-section {
@@ -140,4 +146,37 @@ h2 {
   font-size: 20px;
   text-align: right;
   margin-right: 36px;
+}
+
+/* CTA */
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+}
+
+.cta-container {
+  display: flex;
+  gap: 96px;
+  background-color: #3882F6;
+  padding: 44px 144px; /* work on this */
+  border-radius: 8px;
+}
+
+.cta-primary-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.cta-secondary-text {
+  font-size: 16px;
+  color: #E5E7EB;
+}
+
+.cta-button {
+  align-self: center;
+  padding: 6px 32px;
+  border: 2px solid #F9FAF8;
 }
