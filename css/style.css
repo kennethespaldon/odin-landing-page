@@ -85,40 +85,59 @@ button {
 
 /* INFO */
 .info-section {
-    padding: 40px 0px 136px;
+  padding: 40px 0px 136px;
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-    text-align: center;
-    margin-bottom: 48px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .info-cards {
-    display: flex;
-    justify-content: center;
-    gap: 56px;
+  display: flex;
+  justify-content: center;
+  gap: 56px;
 }
 
 .info-column {
-    width: 170px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .info-img {
-    height: 170px;
-    width: 170px;
-    border: 3px solid #3882F6;
-    border-radius: 8px;
-    margin-bottom: 8px;
+  height: 170px;
+  width: 170px;
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+  margin-bottom: 8px;
 }
 
 .info-text {
-    width: 150px;
-    color: #1F2937;
+  width: 150px;
+  color: #1F2937;
+}
+
+/* TESTIMONIAL */
+.testimonial-section {
+  padding: 112px 344px 96px;
+  background-color: #E5E7EB;
+}
+
+.testimonial {
+  color: #1F2937;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.author {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 36px;
 }
